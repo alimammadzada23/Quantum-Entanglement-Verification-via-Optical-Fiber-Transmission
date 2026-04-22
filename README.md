@@ -170,7 +170,7 @@ Merges all three CSVs on `(dt_ps, fiber)` via outer join, then computes:
 
 | Fiber       | M1  F > 0.5 | M4  C > 0  | M3  S > 2.0 | M3 / M1 ratio |
 |-------------|-------------|------------|-------------|---------------|
-| NANF (HCF)  | 58.5 ps     | 58.5 ps    | 97.25 ps    | 1.66×         |
+| NANF (HCF)  | 58.5 ps     | 39.75 ps    | 97.25 ps    | 1.66×         |
 | SMF-28      | 106.0 ps    | 106.0 ps   | 217.75 ps   | 2.05×         |
 
 NANF confirms entanglement at ~half the Δt of SMF-28 across all methods.
