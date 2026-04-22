@@ -102,7 +102,7 @@ These are linear functionals of ρ — no additional optimisation is needed.
 `dt_ps`, `vpos`, `fiber`, `F_mean`, `F_std`, `W`, `W_std`, `entangled_2sig`,
 `E_ZZ`, `E_XX`, `E_YY`
 
-![Entanglement Verification](entanglement_verification.png)---
+(entanglement_verification.png)---
  
 ### Method 3 — CHSH Nonlocality via Horodecki (1995)   `method_3.py`
 
@@ -119,6 +119,7 @@ where `m1 ≥ m2` are the two largest eigenvalues of M.
 **Output columns:**
 `dt_ps`, `vpos`, `fiber`, `S_mle`, `S_mean`, `S_std`, `significance_sigma`,
 `entangled_2sigma`, `purity`, `m1`, `m2`
+![CHSH](chsh_smax_horodecki.png)
 
 ---
 
