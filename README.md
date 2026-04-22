@@ -102,7 +102,7 @@ These are linear functionals of ρ — no additional optimisation is needed.
 `dt_ps`, `vpos`, `fiber`, `F_mean`, `F_std`, `W`, `W_std`, `entangled_2sig`,
 `E_ZZ`, `E_XX`, `E_YY`
 
-(entanglement_verification.png)---
+![E](entanglement_verification.png)
  
 ### Method 3 — CHSH Nonlocality via Horodecki (1995)   `method_3.py`
 
@@ -148,7 +148,7 @@ where `λ1 ≥ λ2 ≥ λ3 ≥ λ4 ≥ 0` are the square roots of the eigenvalue
 **Output columns:**
 `dt_ps`, `vpos`, `fiber`, `C_point`, `C_mean`, `C_std`, `entangled_2sigma`, `purity`
 
----
+![4](concurrence_wootters.png)---
 
 ### Multi-Method Comparison   `entanglement_comparison.py`
 
@@ -188,6 +188,10 @@ NANF confirms entanglement at ~half the Δt of SMF-28 across all methods.
 CHSH requires nonlocality (strictly stronger than entanglement). Bell fidelity and
 concurrence detect entanglement at lower signal levels, especially in the mixed-state
 regime at low Δt.
+
+![Comparing](comparison_6panel.png)
+
+![Comparing](entanglement_verification.png)
 
 ---
 
