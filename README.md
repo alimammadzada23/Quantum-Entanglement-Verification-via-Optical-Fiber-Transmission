@@ -88,7 +88,7 @@ consistently:
 
 ---
 
-### Method 1 — Bell Fidelity F(|Ψ⁻⟩)   `method_12.py`
+### Method 1 — Bell Fidelity F(|Ψ⁻⟩)   `method_1,2.py`
 
 Fidelity with the Bell state is computed from three two-qubit correlators:
 
@@ -159,6 +159,7 @@ Merges all three CSVs on `(dt_ps, fiber)` via outer join, then computes:
 - **Disagreement analysis** — points where M1, M3, M4 give different verdicts
 - **Two publication figures** — 6-panel overview and annotated per-method plots
 
+
 ---
 
 ## Key Results
@@ -205,7 +206,7 @@ linear algebra on reconstructed density matrices.
 Run scripts in order — each produces CSVs consumed by the next:
 
 ```bash
-python method_12.py            # → fidelity_witness_results.csv
+python method_1,2.py            # → fidelity_witness_results.csv
 python method_3.py             # → chsh_horodecki_results.csv
 python method_4.py             # → concurrence_results.csv
 python entanglement_comparison.py   # → merged_comparison.csv + all figures
