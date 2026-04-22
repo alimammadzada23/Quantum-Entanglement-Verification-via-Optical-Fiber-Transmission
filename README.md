@@ -4,6 +4,7 @@ Independent re-analysis of polarisation-entangled photon-pair transmission throu
 NANF (Hollow-Core Fiber) and SMF-28 (Standard Single-Mode Fiber) using full quantum
 state tomography and three complementary entanglement metrics.
 
+Paper: Distribution of Telecom Entangled Photons through a 7.7 km Antiresonant Hollow-Core Fiber
 ---
 
 ## Overview
@@ -238,6 +239,8 @@ Running any script twice on the same data produces bit-identical output.
 - James et al. (2001) — *Phys. Rev. A* **64**, 052312 — MLE quantum state tomography
 - Werner (1989) — *Phys. Rev. A* **40**, 4277 — Werner state model
 - Bell (1964) — *Physics* **1**, 195 — Bell inequality
+- Distribution of Telecom Entangled Photons through a 7.7 km Antiresonant Hollow-Core Fiber
+Michael Antesberger, Carla M. D. Richter, Francesco Poletti, Radan Slavík, Periklis Petropoulos, Hannes Hübel, Alessandro Trenti, Philip Walther, Lee A. Rozema
 
 ---
 
