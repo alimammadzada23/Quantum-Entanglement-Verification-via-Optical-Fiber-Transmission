@@ -183,14 +183,6 @@ $$C(\rho) = \max\{0,\; \lambda_1 - \lambda_2 - \lambda_3 - \lambda_4\},$$
 
 where $\lambda_i$ are the square roots of the eigenvalues of $R$, sorted descending.
 
-> **⚠️ Estimator bias near $C = 0$.** The $\max(0, \cdot)$ clip makes the bootstrap
-> *mean* of $C$ positively biased when the true concurrence is small: individual
-> bootstrap draws can land at $C > 0$ purely from counting noise, and none land at
-> $C < 0$. A naive 2σ criterion can then produce **false positives** on separable
-> states. This analysis applies an SNR guard — detection requires
-> $C_\text{mean} > 5\sigma_C$ in addition to $C_\text{mean} - 2\sigma_C > 0$ —
-> which removes the artifact and restores the Werner-theoretical ordering (see
-> §Key Results).
 
 ![Concurrence via Wootters](concurrence_wootters.png)
 
